@@ -1,6 +1,7 @@
 from tkinter import *
 
 root = Tk()
+root.title("Email Slicer")
 
 label1 = Label(root, text="Enter Email:").grid(row=0, column=0)
 input_field1 = Entry(root, width=50)
